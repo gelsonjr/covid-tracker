@@ -1,0 +1,38 @@
+<!-- Florida COVID-19 Tracker by ZIP Code
+Gelson Cardoso Jr / 2020 Shellhacks -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Florida COVID-19 Tracker </title>
+  <script src="/scripts.js"></script>
+  <link href="/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="main">
+      <h3>Florida COVID-19 Tracker </h3>
+      <p>COVID-19 tracker using Florida Department of Health Open Data</p>
+      <p>This website displays COVID-19 cases in your ZIP code only.</p>
+      <p>The numbers are updated daily.</p>
+      <p class="thick">Please enter your ZIP Code:</p>
+      <fieldset>
+        <input type="text" placeholder="Zip Code" id="userinput">
+      </fieldset>
+      <fieldset>
+        <button type="submit" onclick="myFunction()">Submit</button>
+      </fieldset>
+      <div id="output">
+        <!-- JavaScript myFunction() results will be inserted here-->
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
